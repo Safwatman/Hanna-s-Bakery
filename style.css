@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav ul {
+    width: 100%;
+    height: 100px;
+    background-color: #1d0f0e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav ul li {
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.nav ul li:hover {
+        background-color: #e8ac6e;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.landing {
+    /* background-color: antiquewhite; */
+    background-color: bisque;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 0 50px; */
+    padding: 20px;
+}
+
+.landing .desc h2 {
+    margin: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.landing .desc p.prefix,
+p.suffix {
+    margin-top: 20px;
+    font-size: 80px;
+    text-align: left;
+}
+
+.desc .suffix {
+    margin-left: 200px;
+}
+
+.landing img {
+    height: 60%;
+    border-radius: 6px;
+}
+
+.history {
+    padding: 0 20px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/bakery3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.history div.stamp {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e8ac6e;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+.history h2 {
+    text-align: center;
+    font-size: 200px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.his {
+    width: 80%;
+    font-size: 28px;
+    color: #e8ac6e;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #1d0f0e;
+    padding: 20px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.journy {
+    background-color: #1d0f0e;
+    height: 110vh;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+h3.title {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+
+.stamp {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e8ac6e;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+.journy-items {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 400px;
+}
+
+.card-text {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.card-text h4 {
+    margin-bottom: 20px;
+    color: #e8ac6e;
+}
+
+.location {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.location h3 {
+    color: black;
+}
+
+.map {
+    margin-top: 50px;
+    padding: 0 50px;
+}
